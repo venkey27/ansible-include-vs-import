@@ -11,7 +11,7 @@
     msg: "hi, i am from common role MSG-3" 
 
 - name: change the fact
-  set_fact:    # to change the value of os from RedHat to Debian
+  set_fact:    # to change the value of os from RedHat to Debian in the midddle of the playbook
     os: "Debian"  #overriding the pervious loaded variable
 
 - name: common role msg-4
