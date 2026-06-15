@@ -3,3 +3,6 @@
   #import_role: 
     name: common
   when: os == "RedHat"
+  loop:
+  - suresh
+  - ramesh
