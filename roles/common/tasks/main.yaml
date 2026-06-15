@@ -16,5 +16,4 @@
 
 - name: call role 2
   include_role:
-  name: role-3
-  
+    name: role-3
