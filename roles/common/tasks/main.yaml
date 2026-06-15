@@ -13,3 +13,8 @@
 - name: common role msg-4
   debug:
     msg: "hi, i am from common role MSG-4" 
+
+- name: call role 2
+  include_role:
+  name: role-3
+  
