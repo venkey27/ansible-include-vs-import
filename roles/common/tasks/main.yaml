@@ -10,6 +10,10 @@
   debug:
     msg: "hi, i am from common role MSG-3" 
 
+- name: change the fact
+  set_fact:    # to change the value of os from RedHat to Debian
+    os: "Debian"  #overriding the pervious loaded variable
+
 - name: common role msg-4
   debug:
     msg: "hi, i am from common role MSG-4" 
